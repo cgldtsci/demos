@@ -1,0 +1,39 @@
+1.进入setup.py所在的那层目录
+2.python3 setup.py check 检查是否有误
+	执行后log
+		running check
+		warning: check: missing required meta-data: url
+	执行后的产出
+		文件夹中会出现demo.egg-info这个文件夹
+3.python3 setup.py install
+    执行后log放在本地install.log
+    执行后产出
+        build文件夹
+        demo.egg-info文件夹
+        dist文件夹
+
+3.1  使用unzip查看
+    cd dist; unzip -l  demo-1.0-py3.6.egg
+
+        Archive:  demo-1.0-py3.6.egg
+          Length      Date    Time    Name
+        ---------  ---------- -----   ----
+              158  02-13-2022 21:18   EGG-INFO/PKG-INFO
+              192  02-13-2022 21:18   EGG-INFO/SOURCES.txt
+                1  02-13-2022 21:18   EGG-INFO/dependency_links.txt
+               15  02-13-2022 21:18   EGG-INFO/top_level.txt
+                1  02-13-2022 21:18   EGG-INFO/zip-safe
+                0  12-28-2021 21:01   helloapp/__init__.py
+               41  12-28-2021 21:02   helloapp/hello.py
+              139  02-13-2022 21:18   helloapp/__pycache__/__init__.cpython-36.pyc
+              256  02-13-2022 21:18   helloapp/__pycache__/hello.cpython-36.pyc
+                0  12-28-2021 21:03   myapp/__init__.py
+               38  12-28-2021 21:03   myapp/myapp.py
+              136  02-13-2022 21:18   myapp/__pycache__/__init__.cpython-36.pyc
+              249  02-13-2022 21:18   myapp/__pycache__/myapp.cpython-36.pyc
+        ---------                     -------
+             1226                     13 files
+
+4.python3 test.py  通过import校验是否安装
+
+

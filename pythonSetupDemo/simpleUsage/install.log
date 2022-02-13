@@ -1,0 +1,52 @@
+running install
+/Users/cgl/Desktop/MyProject/demos/pythonSetupDemo/simpleUsage/venv/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,
+/Users/cgl/Desktop/MyProject/demos/pythonSetupDemo/simpleUsage/venv/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  EasyInstallDeprecationWarning,
+running bdist_egg
+running egg_info
+writing demo.egg-info/PKG-INFO
+writing dependency_links to demo.egg-info/dependency_links.txt
+writing top-level names to demo.egg-info/top_level.txt
+reading manifest file 'demo.egg-info/SOURCES.txt'
+writing manifest file 'demo.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.15-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/helloapp
+copying helloapp/hello.py -> build/lib/helloapp
+copying helloapp/__init__.py -> build/lib/helloapp
+creating build/lib/myapp
+copying myapp/__init__.py -> build/lib/myapp
+copying myapp/myapp.py -> build/lib/myapp
+creating build/bdist.macosx-10.15-x86_64
+creating build/bdist.macosx-10.15-x86_64/egg
+creating build/bdist.macosx-10.15-x86_64/egg/helloapp
+copying build/lib/helloapp/hello.py -> build/bdist.macosx-10.15-x86_64/egg/helloapp
+copying build/lib/helloapp/__init__.py -> build/bdist.macosx-10.15-x86_64/egg/helloapp
+creating build/bdist.macosx-10.15-x86_64/egg/myapp
+copying build/lib/myapp/__init__.py -> build/bdist.macosx-10.15-x86_64/egg/myapp
+copying build/lib/myapp/myapp.py -> build/bdist.macosx-10.15-x86_64/egg/myapp
+byte-compiling build/bdist.macosx-10.15-x86_64/egg/helloapp/hello.py to hello.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.15-x86_64/egg/helloapp/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.15-x86_64/egg/myapp/__init__.py to __init__.cpython-36.pyc
+byte-compiling build/bdist.macosx-10.15-x86_64/egg/myapp/myapp.py to myapp.cpython-36.pyc
+creating build/bdist.macosx-10.15-x86_64/egg/EGG-INFO
+copying demo.egg-info/PKG-INFO -> build/bdist.macosx-10.15-x86_64/egg/EGG-INFO
+copying demo.egg-info/SOURCES.txt -> build/bdist.macosx-10.15-x86_64/egg/EGG-INFO
+copying demo.egg-info/dependency_links.txt -> build/bdist.macosx-10.15-x86_64/egg/EGG-INFO
+copying demo.egg-info/top_level.txt -> build/bdist.macosx-10.15-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/demo-1.0-py3.6.egg' and adding 'build/bdist.macosx-10.15-x86_64/egg' to it
+removing 'build/bdist.macosx-10.15-x86_64/egg' (and everything under it)
+Processing demo-1.0-py3.6.egg
+Copying demo-1.0-py3.6.egg to /Users/cgl/Desktop/MyProject/demos/pythonSetupDemo/simpleUsage/venv/lib/python3.6/site-packages
+Removing demo 1.0 from easy-install.pth file
+Adding demo 1.0 to easy-install.pth file
+
+Installed /Users/cgl/Desktop/MyProject/demos/pythonSetupDemo/simpleUsage/venv/lib/python3.6/site-packages/demo-1.0-py3.6.egg
+Processing dependencies for demo==1.0
+Finished processing dependencies for demo==1.0
